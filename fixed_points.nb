@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     75685,       1599]
-NotebookOptionsPosition[     74080,       1544]
-NotebookOutlinePosition[     74423,       1559]
-CellTagsIndexPosition[     74380,       1556]
+NotebookDataLength[     81998,       1725]
+NotebookOptionsPosition[     80274,       1666]
+NotebookOutlinePosition[     80617,       1681]
+CellTagsIndexPosition[     80574,       1678]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -242,15 +242,15 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{"kap2", ",", 
        RowBox[{"10", "^", 
-        RowBox[{"-", "10"}]}], ",", 
+        RowBox[{"-", "5"}]}], ",", 
        RowBox[{"10", "^", 
-        RowBox[{"-", "2"}]}]}], "}"}], ",", 
+        RowBox[{"-", "1"}]}]}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"kpa2", ",", 
        RowBox[{"10", "^", 
-        RowBox[{"-", "10"}]}], ",", 
+        RowBox[{"-", "5"}]}], ",", 
        RowBox[{"10", "^", 
-        RowBox[{"-", "2"}]}]}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+        RowBox[{"-", "1"}]}]}], "}"}]}], "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"vp", "=", 
      RowBox[{"VectorPlot", "[", 
@@ -287,7 +287,7 @@ Cell[BoxData[
   3.7432538619280257`*^9, 3.743253862825595*^9}, {3.743318220281947*^9, 
   3.743318228201733*^9}, {3.743318276103593*^9, 3.74331831478412*^9}, {
   3.743318358291733*^9, 3.7433183584044323`*^9}, {3.7433184053049684`*^9, 
-  3.7433184124348955`*^9}}],
+  3.7433184124348955`*^9}, {3.743590474200222*^9, 3.7435904811765585`*^9}}],
 
 Cell[BoxData["0.07198993110757815`"], "Output",
  CellChangeTimes->{
@@ -296,7 +296,7 @@ Cell[BoxData["0.07198993110757815`"], "Output",
    3.7432535524932594`*^9}, 3.743253586999017*^9, {3.743253707544718*^9, 
    3.7432537286044235`*^9}, {3.743317695791974*^9, 3.7433177104956427`*^9}, {
    3.743318232789462*^9, 3.7433182836274652`*^9}, 3.74331831546131*^9, 
-   3.7433183609595966`*^9, 3.743318412960491*^9}],
+   3.7433183609595966`*^9, 3.743318412960491*^9, 3.743590482600748*^9}],
 
 Cell[BoxData["0.06877434129079905`"], "Output",
  CellChangeTimes->{
@@ -305,17 +305,81 @@ Cell[BoxData["0.06877434129079905`"], "Output",
    3.7432535524932594`*^9}, 3.743253586999017*^9, {3.743253707544718*^9, 
    3.7432537286044235`*^9}, {3.743317695791974*^9, 3.7433177104956427`*^9}, {
    3.743318232789462*^9, 3.7433182836274652`*^9}, 3.74331831546131*^9, 
-   3.7433183609595966`*^9, 3.743318412962517*^9}]
-}, Open  ]],
+   3.7433183609595966`*^9, 3.743318412960491*^9, 3.7435904826057386`*^9}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`alph$$ = 2, $CellContext`bet$$ = 
-    1, $CellContext`kap2$$ = 0.0075600000244, $CellContext`kpa2$$ = 
-    0.0005200000948, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    2, $CellContext`kap2$$ = 0.026407360000000005`, $CellContext`kpa2$$ = 
+    0.028407160000000004`, Typeset`show$$ = True, Typeset`bookmarkList$$ = {},
+     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`alph$$], 1, 5}, {
+      Hold[$CellContext`bet$$], 1, 5}, {
+      Hold[$CellContext`kap2$$], 
+      Rational[1, 100000], 
+      Rational[1, 10]}, {
+      Hold[$CellContext`kpa2$$], 
+      Rational[1, 100000], 
+      Rational[1, 10]}}, Typeset`size$$ = {360., {179., 183.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`alph$51817$$ = 0, $CellContext`bet$51818$$ = 
+    0, $CellContext`kap2$51819$$ = 0, $CellContext`kpa2$51820$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`alph$$ = 1, $CellContext`bet$$ = 
+        1, $CellContext`kap2$$ = Rational[1, 100000], $CellContext`kpa2$$ = 
+        Rational[1, 100000]}, "ControllerVariables" :> {
+        Hold[$CellContext`alph$$, $CellContext`alph$51817$$, 0], 
+        Hold[$CellContext`bet$$, $CellContext`bet$51818$$, 0], 
+        Hold[$CellContext`kap2$$, $CellContext`kap2$51819$$, 0], 
+        Hold[$CellContext`kpa2$$, $CellContext`kpa2$51820$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ContourPlot[{(-$CellContext`sa) $CellContext`aa - $CellContext`kap2$$ \
+$CellContext`aa $CellContext`pp^$CellContext`alph$$ + 1 == 
+         0, (-$CellContext`sp) $CellContext`pp - $CellContext`kpa2$$ \
+$CellContext`pp $CellContext`aa^$CellContext`bet$$ + 1 == 
+         0}, {$CellContext`aa, -1, 20}, {$CellContext`pp, -1, 20}], 
+      "Specifications" :> {{$CellContext`alph$$, 1, 5}, {$CellContext`bet$$, 
+         1, 5}, {$CellContext`kap2$$, 
+         Rational[1, 100000], 
+         Rational[1, 10]}, {$CellContext`kpa2$$, 
+         Rational[1, 100000], 
+         Rational[1, 10]}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{411., {316., 321.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.7432530779455123`*^9, {3.743253129833794*^9, 3.7432531508545976`*^9}, {
+   3.7432531856159973`*^9, 3.743253217306301*^9}, {3.7432534251376595`*^9, 
+   3.7432535524932594`*^9}, 3.743253586999017*^9, {3.743253707544718*^9, 
+   3.7432537286044235`*^9}, {3.743317695791974*^9, 3.7433177104956427`*^9}, {
+   3.743318232789462*^9, 3.7433182836274652`*^9}, 3.74331831546131*^9, 
+   3.7433183609595966`*^9, 3.743318412960491*^9, 3.743590482885985*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`alph$$ = 2, $CellContext`bet$$ = 
+    2, $CellContext`kap2$$ = 1, $CellContext`kpa2$$ = 1, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`alph$$], 1, 5}, {
       Hold[$CellContext`bet$$], 1, 5}, {
       Hold[$CellContext`kap2$$], 
@@ -364,6 +428,64 @@ $CellContext`pp $CellContext`aa^$CellContext`bet$$ + 1 ==
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Input",
  CellChangeTimes->{3.7433184427797213`*^9}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`alph$$ = 2, $CellContext`bet$$ = 
+    2, $CellContext`kap2$$ = 0.004800000051999999, $CellContext`kpa2$$ = 
+    0.0099400000006, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`alph$$], 2}, 1, 5}, {{
+       Hold[$CellContext`bet$$], 2}, 1, 5}, {{
+       Hold[$CellContext`kap2$$], 0.004800000051999999}, 
+      Rational[1, 10000000000], 
+      Rational[1, 100]}, {{
+       Hold[$CellContext`kpa2$$], 0.0099400000006}, 
+      Rational[1, 10000000000], 
+      Rational[1, 100]}}, Typeset`size$$ = {360., {179., 183.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`alph$45301$$ = 0, $CellContext`bet$45302$$ = 
+    0, $CellContext`kap2$45303$$ = 0, $CellContext`kpa2$45304$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`alph$$ = 2, $CellContext`bet$$ = 
+        2, $CellContext`kap2$$ = 0.004800000051999999, $CellContext`kpa2$$ = 
+        0.0099400000006}, "ControllerVariables" :> {
+        Hold[$CellContext`alph$$, $CellContext`alph$45301$$, 0], 
+        Hold[$CellContext`bet$$, $CellContext`bet$45302$$, 0], 
+        Hold[$CellContext`kap2$$, $CellContext`kap2$45303$$, 0], 
+        Hold[$CellContext`kpa2$$, $CellContext`kpa2$45304$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ContourPlot[{(-$CellContext`sa) $CellContext`aa - $CellContext`kap2$$ \
+$CellContext`aa $CellContext`pp^$CellContext`alph$$ + 1 == 
+         0, (-$CellContext`sp) $CellContext`pp - $CellContext`kpa2$$ \
+$CellContext`pp $CellContext`aa^$CellContext`bet$$ + 1 == 
+         0}, {$CellContext`aa, -1, 20}, {$CellContext`pp, -1, 20}], 
+      "Specifications" :> {{{$CellContext`alph$$, 2}, 1, 
+         5}, {{$CellContext`bet$$, 2}, 1, 
+         5}, {{$CellContext`kap2$$, 0.004800000051999999}, 
+         Rational[1, 10000000000], 
+         Rational[1, 100]}, {{$CellContext`kpa2$$, 0.0099400000006}, 
+         Rational[1, 10000000000], 
+         Rational[1, 100]}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{411., {266., 271.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.743421522070518*^9}]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1578,28 +1700,32 @@ Cell[6146, 150, 314, 5, 31, "Output"]
 Cell[6475, 158, 704, 20, 31, "Input"],
 Cell[7182, 180, 393, 6, 52, "Input"],
 Cell[CellGroupData[{
-Cell[7600, 190, 3727, 99, 157, "Input"],
-Cell[11330, 291, 493, 7, 31, "Output"],
-Cell[11826, 300, 493, 7, 31, "Output"]
-}, Open  ]],
-Cell[12334, 310, 2797, 55, 654, InheritFromParent],
-Cell[CellGroupData[{
-Cell[15156, 369, 2855, 55, 604, InheritFromParent],
-Cell[18014, 426, 2844, 56, 654, "Output"]
+Cell[7600, 190, 3773, 99, 157, "Input"],
+Cell[11376, 291, 515, 7, 31, "Output"],
+Cell[11894, 300, 517, 7, 31, "Output"],
+Cell[12414, 309, 3191, 60, 686, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20895, 487, 96, 1, 31, "Input"],
-Cell[20994, 490, 88, 1, 31, "Output"]
+Cell[15642, 374, 2769, 55, 654, InheritFromParent],
+Cell[18414, 431, 2899, 55, 554, "Output"]
 }, Open  ]],
-Cell[21097, 494, 68, 1, 31, "Input"],
 Cell[CellGroupData[{
-Cell[21190, 499, 3122, 82, 196, "Input"],
-Cell[24315, 583, 1075, 30, 110, "Output"]
+Cell[21350, 491, 2855, 55, 604, InheritFromParent],
+Cell[24208, 548, 2844, 56, 654, "Output"]
 }, Open  ]],
-Cell[25405, 616, 441, 14, 31, "Input"],
 Cell[CellGroupData[{
-Cell[25871, 634, 3031, 96, 152, "Input"],
-Cell[28905, 732, 45159, 809, 380, "Output"]
+Cell[27089, 609, 96, 1, 31, "Input"],
+Cell[27188, 612, 88, 1, 31, "Output"]
+}, Open  ]],
+Cell[27291, 616, 68, 1, 31, "Input"],
+Cell[CellGroupData[{
+Cell[27384, 621, 3122, 82, 196, "Input"],
+Cell[30509, 705, 1075, 30, 110, "Output"]
+}, Open  ]],
+Cell[31599, 738, 441, 14, 31, "Input"],
+Cell[CellGroupData[{
+Cell[32065, 756, 3031, 96, 152, "Input"],
+Cell[35099, 854, 45159, 809, 380, "Output"]
 }, Open  ]]
 }
 ]
